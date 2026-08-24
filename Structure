@@ -1,0 +1,44 @@
+##Project Structure
+hotel_complaint_system/
+│
+├── android/
+├── ios/
+├── web/
+├── windows/
+│
+├── assets/
+│   ├── images/
+│   └── icons/
+│
+├── lib/
+   ├── main.dart
+   │
+   ├── screens/
+   │   ├── splash_screen.dart
+   │   ├── login_screen.dart
+   │   ├── register_screen.dart
+   │   ├── home_screen.dart
+   │   ├── complaint_screen.dart
+   │   ├── complaint_history_screen.dart
+   │   ├── complaint_details_screen.dart
+   │   ├── maintenance_dashboard.dart
+   │   └── profile_screen.dart
+   │
+   ├── widgets/
+   │   ├── complaint_card.dart
+   │   ├── custom_button.dart
+   │   └── custom_textfield.dart
+   │
+   ├── models/
+   │   ├── user_model.dart
+   │   └── complaint_model.dart
+   │
+   ├── services/
+   │   ├── auth_service.dart
+   │   ├── complaint_service.dart
+   │   └── prediction_service.dart
+   │
+   └── utils/
+       ├── constants.dart
+       └── theme.dart
+
